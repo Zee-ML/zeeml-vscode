@@ -1,0 +1,61 @@
+{
+  "name": "zeeml-vscode",
+  "displayName": "ZeeML JSON-to-CSV, Table & Cadence Studio",
+  "description": "Convert nested JSON to RFC-4180 CSV, parse CSV to JSON, align Markdown tables, and inspect live sentence burstiness CV and readability in the status bar.",
+  "version": "1.0.0",
+  "publisher": "ZeeML",
+  "homepage": "https://zeeml.com/json-to-csv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zee-ML/zeeml-vscode.git"
+  },
+  "bugs": {
+    "url": "https://zeeml.com/tools"
+  },
+  "license": "MIT",
+  "icon": "icon-128.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Formatters",
+    "Linters",
+    "Other"
+  ],
+  "keywords": [
+    "json to csv",
+    "csv to json",
+    "markdown table",
+    "word counter",
+    "burstiness",
+    "zeeml"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "zeeml.jsonToCsv",
+        "title": "ZeeML: Flatten Selection JSON to RFC-4180 CSV"
+      },
+      {
+        "command": "zeeml.csvToJson",
+        "title": "ZeeML: Parse Selection RFC-4180 CSV to JSON"
+      },
+      {
+        "command": "zeeml.jsonToMarkdownTable",
+        "title": "ZeeML: Convert Selection JSON to Aligned Markdown Table"
+      },
+      {
+        "command": "zeeml.inspectCadence",
+        "title": "ZeeML: Inspect Word Count, Burstiness CV & Readability"
+      },
+      {
+        "command": "zeeml.cgpaQuickCalc",
+        "title": "ZeeML: Convert 10-Point CGPA to Percentage & 4.0 GPA"
+      }
+    ]
+  }
+}
