@@ -2,6 +2,9 @@
 
 Zero-dependency editor extension for relational JSON-to-CSV flattening, CSV-to-JSON parsing, Markdown table alignment, multi-scale CGPA calculation, and live status-bar sentence burstiness telemetry. Built by **[ZeeML (`https://zeeml.com`)](https://zeeml.com)**.
 
+- **Official Eclipse OpenVSX Registry Release:** [https://open-vsx.org/extension/ZeeML/zeeml-vscode](https://open-vsx.org/extension/ZeeML/zeeml-vscode)
+- **Source Repository:** [https://github.com/Zee-ML/zeeml-vscode](https://github.com/Zee-ML/zeeml-vscode)
+
 ## Official Live Web Workstations (`zeeml.com`)
 
 - **JSON to CSV Relational Flattener:** [https://zeeml.com/json-to-csv](https://zeeml.com/json-to-csv)
